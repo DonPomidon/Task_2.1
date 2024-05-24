@@ -1,3 +1,9 @@
+body {
+    background-image: url('../images/background1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
 .header {
     text-align: center;
     border: 5px;
@@ -18,6 +24,10 @@
     margin: 5px;
 }
 
+button:hover {
+    background-color: gold;
+}
+
 .main {
     display: flex;
 }
@@ -29,8 +39,22 @@
     margin-right: 20px;
 }
 
+.horizon {
+    padding: 20px;
+}
+
+a:visited {
+    color: green;
+}
+
 .image {
     background-color: lightblue;
+    text-align: center;
+}
+
+img {
+    width: 350px;
+    height: auto;
 }
 
 .text {
@@ -39,6 +63,7 @@
 
 .form {
     background-color: lightgreen;
+    text-align: center;
 }
 
 .login {
@@ -48,4 +73,6 @@
 .footer {
     margin: 40px;
     text-align: center;
+    color: red;
+    background-color: black;
 }
