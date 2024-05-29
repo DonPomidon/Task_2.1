@@ -76,3 +76,13 @@ a:visited {
     color: red;
     background-color: black;
 }
+
+.btn btn-primary {
+    display: flex;
+    text-align: center;
+    background-color: orange;
+    padding: 10px;
+    margin: 20px;
+}
+
+
